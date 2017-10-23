@@ -1,6 +1,6 @@
 default: clean
 	echo "##COINHIVE DOMAINS">>hostfile;
-	sed 's/^/127\.0\.0\.1 /' domains >> hostfile
+	sed 's/^/0\.0\.0\.0 /' domains >> hostfile
 	echo "##END COINHIVE">>hostfile;
 install:
 	cp /etc/hosts hosts;
