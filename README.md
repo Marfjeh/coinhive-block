@@ -1,22 +1,39 @@
 # Coinhive-Block
+
 To block the Malware domains of coin-hive.
 or related JS bitcoin miners.
 
-## Why?
-We think that using a JavaScript Bitcoin miner on your site is Malware.
-Web-Masters will and are abusing it, running it in the background without any the user knowledge.
+This does not block Authedmine.com because they will ask for permission this is only for the rouge implementations of it.
 
-For example, The PirateBay is using the Bitcoin miner on the search list page. 
-without ANY of the user knowledge. they stated that they're testing it. A lot of the administrators didn't like it.
-They removed it after, but as of now they re-added it on their site.
+## Why block (rouge) JS Cyrpto Miners?
+We think that using a JavaScript Bitcoin miner on your site without using end-users opt-in is **Malware**.
+
+Fortunately, Coinhive did realize how webmasters implemented on their sites without ever asking the end-user, they concluded:
+```
+We're a bit saddened to see that some of our customers integrate Coinhive into their pages without disclosing to their users what's going on, let alone asking for their permission. We believe there's so much more potential for our solution, but we have to be respectful to our end users.
+
+We hope we can convince website owner to integrate the miner in a way that is more meaningful and honest to their users. ...
+```
+[source][4]
+
+A month ago, The piratebay secretly added the JS miner without any of the user knowledge. adding secret miners is making your site behave as a malware. 
+
+Still honestly, to me, it's a great solution for the dying ads market, only sad that the webmasters implemented it like a malware. without ever thinking about the end-user.
 
 ## I'm using coinhive on my site. what now?
-We suggest to stop using that and add a donation button / ads on your site instead.
+We suggest asking the end-user for opt-in before those operations. it's their choice when they want it or not. and even they don't want it, please respect the user's decision.
 
-You need to think about that you're draining people's battery because **YOU** need that few extra cents. Do you like it when a website drains your laptops/phones battery to generate money for the webmaster because muh money? And you need to use the phone/laptop for the rest of the day, and don't have a charger? Yes, that's why you don't add this kind of malware to your site. Please don't be that guy.
+[Authedmine.com][3] adds a pop-up asking for permission to authorize it. That's why we won't block authedmine.
 
-Even people using antimalwarebytes even blocks crypto mining js files so far i know. So a big shoutout to those people they're **AWESOME!** 
-[Antimalware statement about the coin-hive block][1]
+Even people using AntiMalwareBytes even blocks crypto mining js files so far I know. they also stated that the webmaster's implementation of it is wrong:
+```
+Why are we blocking it?
+
+We do not claim that CoinHive is malicious, or even necessarily a bad idea. The concept of allowing folks to opt-in for an alternative to advertising, which has been plagued by everything from fake news to malvertising, is a noble one. The execution of it is another story.
+
+The reason we block CoinHive is because there are site owners who do not ask for their users’ permission to start running CPU-gorging applications on their systems. A regular Bitcoin miner could be incredibly simple or a powerhouse, depending on how much computing the user running the miner wants to use. The JavaScript version of a miner allows customization of how much mining to do, per user system, but leaves that up to the site owner, who may want to slow down your computer experience to a crawl.
+``` 
+[source][1]
 
 ## How to install (Linux)
 ```BASH
@@ -26,4 +43,17 @@ sudo make
 sudo make install
 ```
 
+## Contributing
+1. Clone the repository `git@github.com:Marfjeh/coinhive-block.git`
+2. Change directory to the coin-hice block folder `cd coinhive-block`
+3. Add new domains to the `domains` and start contributing!
+
+
+## License
+
+This project is released under the [MIT License][2]
+
 [1]: https://blog.malwarebytes.com/security-world/2017/10/why-is-malwarebytes-blocking-coinhive/
+[2]: https://github.com/Marfjeh/coinhive-block/blob/master/LICENSE.md
+[3]: http://www.authedmine.com
+[4]: https://coinhive.com/blog/status-report
