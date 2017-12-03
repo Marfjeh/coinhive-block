@@ -51,8 +51,17 @@ sudo make install
 
 This project is released under the [MIT License][2]
 
+## Buy us a coffee
+
+
+[![donate button][6]][5]
+
+
 [1]: https://blog.malwarebytes.com/security-world/2017/10/why-is-malwarebytes-blocking-coinhive/
 [2]: https://github.com/Marfjeh/coinhive-block/blob/master/LICENSE.md
 [3]: http://www.authedmine.com
 [4]: https://coinhive.com/blog/status-report
+[5]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HWEZU54NS7GW
+[6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
+
 
