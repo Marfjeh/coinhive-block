@@ -1,14 +1,13 @@
-# Coinhive-Block
+# CoinHive-Block
 
-To block the Malware domains of coin-hive.
-or related JS bitcoin miners.
+To block the Malware domains of CoinHive or related JS bitcoin miners.
 
-This does not block Authedmine.com because they will ask for permission this is only for the rouge implementations of it.
+This does not block AuthedMine.com because they ask for permission. This is only for the rogue implementations of it.
 
-## Why block (rouge) JS Cyrpto Miners?
-We think that using a JavaScript Bitcoin miner on your site without using end-users opt-in is **Malware**.
+## Why block (rogue) JS Crypto Miners?
+We think that using a JavaScript Bitcoin miner on your site without end-users explicitly opting-in is **Malware**.
 
-Fortunately, CoinHive did realize how webmasters implemented on their sites without ever asking the end-user, they concluded:
+Fortunately, CoinHive did realize how webmasters implemented their sites without ever asking the end-user. They concluded:
 
 >We're a bit saddened to see that some of our customers integrate CoinHive into their pages without disclosing to their users what's going on, let alone asking for their permission. We believe there's so much more potential for our solution, but we have to be respectful to our end users.
 >
@@ -16,21 +15,22 @@ Fortunately, CoinHive did realize how webmasters implemented on their sites with
 
 [source][4]
 
-A month ago, The PirateBay secretly added the JS miner without any of the user knowledge. adding secret miners is making your site behave as a malware. 
+A month ago, The PirateBay secretly added the JS miner without any user disclosure. Adding secret miners is making your site behave as a malware. 
 
-Still honestly, to me, it's a great solution for the dying ads market, only sad that the webmasters implemented it like a malware. without ever thinking about the end-user.
+Still honestly, to me, it's a great solution for the dying ads market, but it's sad that the webmasters implemented it like a malware, without ever thinking about the end-user.
 
-## I'm using CoinHive on my site. what now?
-We suggest asking the end-user for opt-in before those operations. it's their choice when they want it or not. and even they don't want it, please respect the user's decision.
+## I'm using CoinHive on my site. What now?
+We suggest asking the end-user for opt-in before those operations. It's the user's choice when they want it or not, and, even they don't want it, please respect their decision.
 
-[Authedmine.com][3] adds a pop-up asking for permission to authorize it. That's why we won't block authedmine.
+[AuthedMine.com][3] adds a pop-up asking for permission to authorize it. That's why we won't block AuthedMine.
 
-Even people using AntiMalwareBytes even blocks crypto mining js files so far I know. they also stated that the webmaster's implementation of it is wrong:
+Even people using AntiMalwareBytes blocks crypto mining js files so far I know. They also stated that the webmaster's implementation of it is wrong:
 >Why are we blocking it?
 >
 >We do not claim that CoinHive is malicious, or even necessarily a bad idea. The concept of allowing folks to opt-in for an alternative to advertising, which has been plagued by everything from fake news to malvertising, is a noble one. The execution of it is another story.
 >
->The reason we block CoinHive is because there are site owners who do not ask for their users’ permission to start running CPU-gorging applications on their systems. A regular Bitcoin miner could be incredibly simple or a powerhouse, depending on how much computing the user running the miner wants to use. The JavaScript version of a miner allows customization of how much mining to do, per user system, but leaves that up to the site owner, who may want to slow down your computer experience to a crawl. 
+>The reason we block CoinHive is because there are site owners who do not ask for their users’ permission to start running CPU-gorging applications on their systems. A regular Bitcoin miner could be incredibly simple or a powerhouse, depending on how much computing the user running the miner wants to use. The JavaScript version of a miner allows customization of how much mining to do, per user system, but leaves that up to the site owner, who may want to slow down your computer experience to a crawl.
+
 [source][1]
 
 ## How to install (Linux)
@@ -59,7 +59,7 @@ This project is released under the [MIT License][2]
 
 [1]: https://blog.malwarebytes.com/security-world/2017/10/why-is-malwarebytes-blocking-coinhive/
 [2]: https://github.com/Marfjeh/coinhive-block/blob/master/LICENSE.md
-[3]: http://www.authedmine.com
+[3]: https://www.authedmine.com
 [4]: https://coinhive.com/blog/status-report
 [5]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HWEZU54NS7GW
 [6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
