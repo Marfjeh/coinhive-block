@@ -3,9 +3,9 @@
 To block the Malware domains of coin-hive.
 or related JS bitcoin miners.
 
-This does not block Authedmine.com because they will ask for permission this is only for the rouge implementations of it.
+This does not block Authedmine.com because they will ask for permission this is only for the rogue implementations of it.
 
-## Why block (rouge) JS Cyrpto Miners?
+## Why block (rogue) JS Cyrpto Miners?
 We think that using a JavaScript Bitcoin miner on your site without using end-users opt-in is **Malware**.
 
 Fortunately, CoinHive did realize how webmasters implemented on their sites without ever asking the end-user, they concluded:
