@@ -15,7 +15,7 @@ Fortunately, CoinHive did realize how webmasters implemented their sites without
 
 [source][4]
 
-A month ago, The PirateBay secretly added the JS miner without any user disclosure. Adding secret miners is making your site behave as a malware. 
+In September 2017, The PirateBay secretly added the JS miner without any user disclosure. Adding secret miners is making your site behave as a malware. 
 
 Still honestly, to me, it's a great solution for the dying ads market, but it's sad that the webmasters implemented it like a malware, without ever thinking about the end-user.
 
@@ -33,7 +33,11 @@ Even people using AntiMalwareBytes blocks crypto mining js files so far I know. 
 
 [source][1]
 
-## How to install (Linux)
+
+## How to install pre-compiled hostfile (ALL OS, Windows, Linux, Mac OSX, etc.)
+[On this wiki page][7] there's a tutorial how to install it on Windows, Linux and Mac OSX etc.
+
+## How to compile (Linux)
 ```BASH
 git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
 cd coinhive-block
@@ -45,7 +49,6 @@ sudo make install
 1. Clone the repository `git@github.com:Marfjeh/coinhive-block.git`
 2. Change directory to the coin-hice block folder `cd coinhive-block`
 3. Add new domains to the `domains` and start contributing!
-
 
 ## License
 
@@ -63,5 +66,4 @@ This project is released under the [MIT License][2]
 [4]: https://coinhive.com/blog/status-report
 [5]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HWEZU54NS7GW
 [6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
-
-
+[7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
