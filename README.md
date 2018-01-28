@@ -45,6 +45,14 @@ sudo make
 sudo make install
 ```
 
+## How to install (Windows)
+```BASH
+git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
+cd coinhive-block
+python make.py
+copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as admin)
+```
+
 ## Contributing
 1. Clone the repository `git@github.com:Marfjeh/coinhive-block.git`
 2. Change directory to the coin-hice block folder `cd coinhive-block`
