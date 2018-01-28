@@ -45,7 +45,7 @@ sudo make install
 ```BASH
 git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
 cd coinhive-block
-python make.py
+python make.py OR bin/compile.exe
 copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as admin)
 ```
 
