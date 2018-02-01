@@ -47,11 +47,21 @@ sudo make
 sudo make install
 ```
 
-## How to install (Windows)
+## How to install (Windows Python)
 ```BASH
 git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
-cd coinhive-block
-python make.py OR bin/compile.exe
+cd coinhive-block/compilers/src
+python make.py
+cd ../../
+copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as admin)
+```
+
+## How to install (Windows Binary)
+```BASH
+git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
+cd coinhive-block/compilers/bin
+compile.exe
+cd ../../
 copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as admin)
 ```
 
