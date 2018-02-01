@@ -37,6 +37,8 @@ Even people using AntiMalwareBytes blocks crypto mining js files so far I know. 
 ## How to install pre-compiled hostfile (ALL OS, Windows, Linux, Mac OSX, etc.)
 [On this wiki page][7] there's a tutorial how to install it on Windows, Linux and Mac OSX etc.
 
+There are secceral ways of compiling the hostfile. This is because we want everyone to be able to compile it. That's why you can pick your way. The ways of compiling are described below.
+
 ## How to compile (Linux)
 ```BASH
 git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
@@ -54,9 +56,9 @@ copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as adm
 ```
 
 ## How to compile (NodeJS)
-```bash
+```BASH
 git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
-cd coinhive-block
+cd coinhive-block/compilers/src
 node make.js
 ```
 

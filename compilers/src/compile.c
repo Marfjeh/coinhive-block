@@ -49,11 +49,11 @@ char** str_split(char* a_str, const char a_delim)
 int main() {
 	char* buffer = 0;
 	long  length;
-	FILE* f_domains = fopen ("domains", "rb");
+	FILE* f_domains = fopen ("../../domains", "rb");
 	
 	char* h_buffer = 0;
 	long  h_length;
-	FILE* h_domains = fopen ("hostfile", "wb+");
+	FILE* h_domains = fopen ("../../hostfile", "wb+");
 
 	if (f_domains) {
 		fseek(f_domains, 0, SEEK_END);
