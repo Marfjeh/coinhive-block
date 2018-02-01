@@ -53,6 +53,13 @@ python make.py OR bin/compile.exe
 copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as admin)
 ```
 
+## How to compile (NodeJS)
+```bash
+git clone https://github.com/Marfjeh/coinhive-block.git or git clone git@github.com:Marfjeh/coinhive-block.git
+cd coinhive-block
+node make.js
+```
+
 ## Contributing
 1. Clone the repository `git@github.com:Marfjeh/coinhive-block.git`
 2. Change directory to the coin-hice block folder `cd coinhive-block`
