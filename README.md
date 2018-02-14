@@ -36,7 +36,7 @@ Even people using AntiMalwareBytes blocks crypto mining js files so far I know. 
 ## Credits
 
 Some of the domains in this repo are from [ZeroDot1/CoinBlockerLists][8]
-Big shoutout to those guy because they are not just blocking JS miners but every crypto-pool that makes bitcoin mining inside your network impossible. very neat stuff if you're a sysadmin!
+Big shoutout to those guys because they are not just blocking JS miners but like every crypto-pool that makes bitcoin mining inside your network impossible. very neat stuff if you're a sysadmin!
 
 ## How to install pre-compiled hostfile (ALL OS, Windows, Linux, Mac OSX, etc.)
 [On this wiki page][7] there's a tutorial how to install it on Windows, Linux and Mac OSX etc.
