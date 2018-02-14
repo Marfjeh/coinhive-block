@@ -33,6 +33,10 @@ Even people using AntiMalwareBytes blocks crypto mining js files so far I know. 
 
 [source][1]
 
+## Credits
+
+Some of the domains in this repo are from [ZeroDot1/CoinBlockerLists][8]
+Big shoutout to those guy because they are not just blocking JS miners but every crypto-pool that makes bitcoin mining inside your network impossible. very neat stuff if you're a sysadmin!
 
 ## How to install pre-compiled hostfile (ALL OS, Windows, Linux, Mac OSX, etc.)
 [On this wiki page][7] there's a tutorial how to install it on Windows, Linux and Mac OSX etc.
@@ -70,6 +74,7 @@ copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts (as adm
 2. Change directory to the coin-hice block folder `cd coinhive-block`
 3. Add new domains to the `domains` and start contributing!
 
+
 ## License
 
 This project is released under the [MIT License][2]
@@ -87,3 +92,4 @@ This project is released under the [MIT License][2]
 [5]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HWEZU54NS7GW
 [6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
 [7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
+[8]: https://github.com/ZeroDot1/CoinBlockerLists
