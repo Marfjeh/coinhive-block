@@ -4,7 +4,7 @@ default: clean
 	echo "##END COINHIVE">>hostfile;
 install:
 	cp /etc/hosts hosts;
-	-rm .temp
+	-rm -f .temp
 	sed '/##COINHIVE DOMAINS/,/##END COINHIVE/d' hosts >> .temp
 	cat hostfile >> .temp
 	mv .temp hosts
