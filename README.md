@@ -5,26 +5,27 @@ To block the Malware domains of CoinHive or related JS bitcoin miners.
 This does not block AuthedMine.com because they ask for permission. This is only for the rogue implementations of it.
 
 ## Why block (rogue) JS Crypto Miners?
-We think that using a JavaScript Bitcoin miner on your site without end-users explicitly opting-in is **Malware**.
+We believe that using a JavaScript Bitcoin miner on your site without end-users explicit permission is **Malware**.
 
-Fortunately, CoinHive did realize how webmasters implemented their sites without ever asking the end-user. They concluded:
+Fortunately, CoinHive realized how webmasters were implementing their miners without ever asking the end-user. They concluded:
 
 >We're a bit saddened to see that some of our customers integrate CoinHive into their pages without disclosing to their users what's going on, let alone asking for their permission. We believe there's so much more potential for our solution, but we have to be respectful to our end users.
 >
->We hope we can convince website owner to integrate the miner in a way that is more meaningful and honest to their users. ...
+>We hope we can convince website owners to integrate the miner in a way that is more meaningful and honest to their users. ...
 
 [source][4]
 
-In September 2017, The PirateBay secretly added the JS miner without any user disclosure. Adding secret miners is making your site behave as a malware. 
+In September 2017, The PirateBay secretly added the JS miner without any user disclosure. Adding secret miners makes your site behave as a malware. 
 
-Still honestly, to me, it's a great solution for the dying ads market, but it's sad that the webmasters implemented it like a malware, without ever thinking about the end-user.
+While it may seem like a great solution for the dying ads market, it's sad that the webmasters implemented it like a malware, without considering the end-user.
 
 ## I'm using CoinHive on my site. What now?
-We suggest asking the end-user for opt-in before those operations. It's the user's choice when they want it or not, and, even they don't want it, please respect their decision.
+We suggest asking the end-user for opt-in before operation. It's the user's choice whether they wish to participate. 
+If they don't, please respect their decision.
 
 [AuthedMine.com][3] adds a pop-up asking for permission to authorize it. That's why we won't block AuthedMine.
 
-Even people using AntiMalwareBytes blocks crypto mining js files so far I know. They also stated that the webmaster's implementation of it is wrong:
+AntiMalwareBytes has also taken steps to block JS Miners stating:
 >Why are we blocking it?
 >
 >We do not claim that CoinHive is malicious, or even necessarily a bad idea. The concept of allowing folks to opt-in for an alternative to advertising, which has been plagued by everything from fake news to malvertising, is a noble one. The execution of it is another story.
@@ -36,12 +37,12 @@ Even people using AntiMalwareBytes blocks crypto mining js files so far I know. 
 ## Credits
 
 Some of the domains in this repo are from [ZeroDot1/CoinBlockerLists][8]
-Big shoutout to those guys because they are not just blocking JS miners but like every crypto-pool that makes bitcoin mining inside your network impossible. very neat stuff if you're a sysadmin!
+Big shoutout to these guys. They're not just blocking JS miners, but every crypto-pool to make mining inside your network impossible. Very neat stuff for SysAdmins!
 
 ## How to install pre-compiled hostfile (ALL OS, Windows, Linux, Mac OSX, etc.)
-[On this wiki page][7] there's a tutorial how to install it on Windows, Linux and Mac OSX etc.
+[On this wiki page][7] there's a tutorial on installation for Windows, Linux and Mac OSX etc.
 
-There are secceral ways of compiling the hostfile. This is because we want everyone to be able to compile it. That's why you can pick your way. The ways of compiling are described below.
+There are multiple options for compiling the hostfile. Several are listed below:
 
 ## How to compile (Linux)
 ```BASH
