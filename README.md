@@ -4,8 +4,6 @@ To block the Malware domains of CoinHive or related JS bitcoin miners.
 
 This does not block AuthedMine.com because they ask for permission. This is only for the rogue implementations of it.
 
-Notice, because i'm moved to gitlab, this github repo will be still updated. The github repo will act like a mirror to the gitlabs mirror. [Gitlab repo][9]
-
 ## Why block (rogue) JS Crypto Miners?
 We believe that using a JavaScript Bitcoin miner on your site without end-users explicit permission is **Malware**.
 
@@ -96,4 +94,3 @@ This project is released under the [MIT License][2]
 [6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
 [7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
 [8]: https://github.com/ZeroDot1/CoinBlockerLists
-[9]: https://gitlab.com/marfjeh/coinhive-block
