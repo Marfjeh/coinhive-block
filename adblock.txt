@@ -1,19 +1,11 @@
-!Coinhive-block on github https://github.com/Marfjeh/coinhive-block
 ! Title: Coinhive-block
 ! Expires: 4 days
 ! Description: Blocks javascript based cyrpto miners.
 ! Homepage: https://github.com/Marfjeh/coinhive-block
-! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Licence: https://github.com/Marfjeh/coinhive-block/blob/master/LICENSE.md
 ! 
-! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
-! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
-
-! https://github.com/chrisaljoudi/uBlock/issues/57
-! https://github.com/chrisaljoudi/uBlock/issues/98
-! New filter class: entity filters, where entity = domain minus public suffix
-! The following filters were taken out of EasyList and given an entity name,
-! which makes them candidates to be injected early in the page.
-! Last updated: 2017-10-10
+! GitHub issues: https://github.com/Marfjeh/coinhive-block/issues
+! GitHub pull requests: https://github.com/Marfjeh/coinhive-block/pulls
 ||2giga.link^
 ||803mine.com^
 ||aajychvi.bid^
