@@ -27,7 +27,7 @@ While it may seem like a great solution for the dying ads market, it's sad that 
 Those lists gets updated on every commit, so you dont need to change them anymore after release.
 
 ## My domain is in this list. What now?
-If you beleaive this is a false-positive which can happen, please make an `issue` about this.
+If you believe this is a false-positive which can happen, please make an `issue` about this.
 and we will resolve this ASAP.
 
 Make also sure that your webhost isnt compromised.
@@ -94,17 +94,9 @@ copy /b %windir%/drivers/etc/hosts + hostfile %windir%/drivers/etc/hosts
 
 This project is released under the [MIT License][2]
 
-## Buy us a coffee
-
-
-[![donate button][6]][5]
-
-
 [1]: https://blog.malwarebytes.com/security-world/2017/10/why-is-malwarebytes-blocking-coinhive/
 [2]: https://github.com/Marfjeh/coinhive-block/blob/master/LICENSE.md
 [3]: https://www.authedmine.com
 [4]: https://coinhive.com/blog/status-report
-[5]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HWEZU54NS7GW
-[6]: https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif
 [7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
 [8]: https://github.com/ZeroDot1/CoinBlockerLists
