@@ -50,7 +50,7 @@ AntiMalwareBytes has also taken steps to block JS Miners stating:
 
 ## Credits
 
-Some of the domains in this repo are from [ZeroDot1/CoinBlockerLists][8]
+Some of the domains in this repo are from [gitlab.com/ZeroDot1/CoinBlockerLists](https://zerodot1.gitlab.io/CoinBlockerListsWeb/index.html)
 Big shoutout to these guys. They're not just blocking JS miners, but every crypto-pool to make mining inside your network impossible. Very neat stuff for SysAdmins!
 
 
@@ -99,4 +99,4 @@ This project is released under the [MIT License][2]
 [3]: https://www.authedmine.com
 [4]: https://coinhive.com/blog/status-report
 [7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
-[8]: https://github.com/ZeroDot1/CoinBlockerLists
+[8]: https://zerodot1.gitlab.io/CoinBlockerListsWeb/index.html
