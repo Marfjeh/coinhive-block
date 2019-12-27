@@ -1,5 +1,7 @@
 # CoinHive-Block
 
+### Notice: Project no longer maintained. See: [this issue][9]
+
 To block the Malware domains of CoinHive or related JS bitcoin miners.
 
 This does not block AuthedMine.com because they ask for permission. This is only for the rogue implementations of it.
@@ -100,3 +102,4 @@ This project is released under the [MIT License][2]
 [4]: https://coinhive.com/blog/status-report
 [7]: https://github.com/Marfjeh/coinhive-block/wiki/Installation-on-windows-Linux-Mac-OSX
 [8]: https://zerodot1.gitlab.io/CoinBlockerListsWeb/index.html
+[9]: https://github.com/Marfjeh/coinhive-block/issues/27
